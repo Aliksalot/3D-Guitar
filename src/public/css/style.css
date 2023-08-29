@@ -1,0 +1,12 @@
+body{
+    background-color: aquamarine;
+}
+
+#guitar-window{
+    width: 800px;
+    height: 450px;
+    left: 100px;
+    top: 100px;
+    position: relative;
+    background-color: aquamarine;
+}
