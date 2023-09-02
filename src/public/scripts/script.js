@@ -1,7 +1,6 @@
         import * as THREE from 'three';
         import { OrbitControls } from "https://unpkg.com/three@0.155.0/examples/jsm/controls/OrbitControls.js";
         import { GLTFLoader } from "https://unpkg.com/three@0.155.0/examples/jsm/loaders/GLTFLoader.js";
-
         const guitar_window = document.getElementById('guitar-window')
         const renderer = new THREE.WebGLRenderer({antialias: true});
         
