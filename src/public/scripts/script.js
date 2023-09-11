@@ -19,7 +19,7 @@
 
         const loader = new GLTFLoader()
 
-        loader.load('../models/guitar.glb', (gltf) => {
+        loader.load('./src/public/models/guitar.glb', (gltf) => {
             const model = gltf.scene
 
             console.log(model)
